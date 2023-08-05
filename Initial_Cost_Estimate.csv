@@ -1,0 +1,23 @@
+﻿Estimate summary,,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,,
+0,9835.35,118024.2,USD,,,,,,
+,,* Includes upfront cost,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Detailed Estimate,,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,987.8,11853.6,USD,,"Data transfer out to internet (10 TB per month), Data transfer out to origin (5 TB per month), Number of requests (HTTPS) (15000000 per month)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,235.52,2826.24,USD,,S3 Standard storage (10 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,460.8,5529.6,USD,,"DT Inbound: All other regions (0 TB per month), DT Outbound: Internet (5 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,4058.8,48705.6,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 8), Advance EC2 instance (m5a.8xlarge), Pricing strategy ( 3 Year  None upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MariaDB,0,3610.96,43331.52,USD,,"Storage volume (General Purpose SSD (gp2)), Storage amount (2 TB), Quantity (2), Instance type (db.m5.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment selection (Multi-AZ), Pricing strategy (OnDemand), Total Size of Backup Processed for Export (GB) (1000 per month), Additional backup storage (5 TB)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,114.77,1377.24,USD,,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,VPN Connection,0,73,876,USD,,"Working days per month (22), Number of Site-to-Site VPN Connections (2)"
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,110.7,1328.4,USD,,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,183,2196,USD,,"Number of Elastic Network Interfaces (2), Hosted Zones (1)"
+My Estimate,US East (N. Virginia),,Amazon Elastic IP,0,0,0,USD,,"Number of EC2 instances (2), Number of EIPs per instance (1)"
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Acknowledgement,,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,,
